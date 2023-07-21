@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2vh;
+  margin: 8vh 0vw;
+}
+
+.title {
+  margin: 5.3333vh 0vw;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  color: #003057;
+}
+
+.titleBold {
+  font-weight: 900;
+}
+
+.contact {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.leftText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #262628;
+  font-size: 1rem;
+  margin-bottom: 4vh;
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.links {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 1.2rem 1.2rem;
+}
+
+.links p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.linksContainer .icons {
+  font-size: 1.5rem;
+}
+
+.mail, .link, .location {
+  background-color: #003057;
+  color: white;
+  border: 1px solid #003057;
+}
+
+.mail:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #003057;
+  border: 1px solid #003057;
+}
+
+.location:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #003057;
+  border: 1px solid #003057;
+}
+
+.link:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #003057;
+  border: 1px solid #003057;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #003057;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1140px) {
+  .contact {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .leftText {
+    font-size: 0.8rem;
+  }
+
+  .links {
+    font-size: 1rem;
+  }
+
+  a{
+    font-size: 0.8rem;
+  }
+
+}

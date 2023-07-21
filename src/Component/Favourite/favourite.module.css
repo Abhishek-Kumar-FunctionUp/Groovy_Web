@@ -1,0 +1,70 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8vh 0vw;
+  }
+
+  .card{
+    padding: 2rem 2rem;
+    background-color: #ffffff;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  1px solid #003057;
+    gap:5rem;
+    margin:2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .title{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #003057;
+    font-weight: 900;
+  }
+
+  .price{
+    font-weight: 900;
+    color: #003057;
+  }
+
+  .description{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0.5rem;
+  }
+
+  .btnContainer{
+    display: flex;
+    gap: 2vw;
+  }
+
+  .btn{
+    border: 1px solid #003057;
+    height: 5.46vh;
+    font-family: "Montserrat", sans-serif;
+    color: #003057;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: #ffffff;
+    padding: 1.48vh 1vw;
+    margin-bottom: 2vw;
+  }
+
+  .btn:hover{
+    background-color: #003057;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
